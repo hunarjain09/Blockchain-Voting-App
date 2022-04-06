@@ -20,8 +20,13 @@ contract Election {
     uint public candidatesCount;
 
     constructor() public {
-        addCandidate("Spenser");
-        addCandidate("Utsav");
+        addCandidate("Bo Wagner");
+        addCandidate("Bo Wagoner");
+        addCandidate("Bo Waggener");
+        addCandidate("Bo Wagonner");
+        addCandidate("Bo Waggoner");
+        addCandidate("Bo Waggonery");
+        addCandidate("Bo Waggneer");
     }
 
     function addCandidate(string memory _name) private {

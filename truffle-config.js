@@ -20,7 +20,7 @@ module.exports = {
       provider: () => {
          return new HDWalletProvider(
            secrets.mnemonic,
-           `wss://kovan.infura.io/ws/v3/${secrets.projectId}`,2
+           `wss://kovan.infura.io/ws/v3/${secrets.projectId}`,1
          );
       },
       network_id: "42",
